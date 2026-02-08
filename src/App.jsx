@@ -320,7 +320,12 @@ export default function App() {
 
         <div className="text-center mb-10">
           <div className="flex items-center justify-center gap-3 mb-3">
-            <h1 className="text-5xl font-bold text-gray-900">Math Task Builder</h1>
+            <h1 
+  className="text-5xl font-bold text-gray-900 cursor-pointer hover:text-indigo-600 transition-colors"
+  onClick={() => window.location.reload()}
+>
+  Math Task Builder
+</h1>
             <button onClick={() => setShowInfo(!showInfo)} className="text-indigo-600 hover:text-indigo-700">
               <Info className="w-6 h-6" />
             </button>
