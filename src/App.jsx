@@ -279,7 +279,7 @@ export default function App() {
             <MessageSquare className="w-4 h-4" />
             <span className="hidden sm:inline">Feedback</span>
           </button>
-          <button onClick={() => setShowEmailModal(true)}
+          <button onClick={() => window.open('https://forms.gle/HXBDSUURfmNdZpCB9', '_blank')}
             className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-full shadow-lg transition-all flex items-center gap-2 font-medium">
             <Mail className="w-4 h-4" />
             <span className="hidden sm:inline">Updates</span>
